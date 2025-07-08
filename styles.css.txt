@@ -1,0 +1,50 @@
+body {
+    background-color: #f0f8ff; /* Cor de fundo suave */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #4a90e2; /* Cor do título */
+    text-align: center; /* Centraliza o título */
+}
+
+p {
+    font-size: 18px; /* Tamanho de fonte maior */
+    text-align: justify; /* Justifica o parágrafo */
+}
+
+ul {
+    margin: 20px; /* Espaçamento maior entre os itens da lista */
+}
+
+img {
+    border-radius: 15px; /* Bordas arredondadas */
+    width: 300px; /* Tamanho adequado da imagem */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Estilização da tabela */
+}
+
+table, th, td {
+    border: 1px solid #ccc; /* Borda da tabela */
+}
+
+th, td {
+    padding: 10px; /* Espaçamento interno das células */
+    text-align: left; /* Alinhamento do texto */
+}
+
+a {
+    color: #4a90e2; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+a:hover {
+    color: #e94e77; /* Cor do link ao passar o mouse */
+}
+
+button {
+    margin-top: 20px; /* Espaçamento acima do botão */
+}

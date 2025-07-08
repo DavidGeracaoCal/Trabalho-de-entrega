@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Pessoal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Luiz Davi Lara Maciel Licks</h1>
+    <p>Olá! Meu nome é Luiz Davi, tenho 18 anos e sou de Guaíba. Meus interesses incluem tecnologia, artes marciais e viagens.</p>
+    
+    <h2>Meus Hobbies</h2>
+    <ul>
+        <li>Academia e artes marciais</li>
+        <li>Viajar e ver boas paisagens</li>
+        <li>Estudar sobre computadores e TI</li>
+    </ul>
+    
+    <img src="https://placehold.co/600x400?text=Artes+Marciais" alt="Praticando artes marciais" id="hobbyImage" class="hobby-image">
+    
+    <h2>Países que gostaria de visitar</h2>
+    <table>
+        <tr>
+            <th>País</th>
+            <th>Imagem</th>
+        </tr>
+        <tr>
+            <td>Japão</td>
+            <td><img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c610d161-7fc3-43ef-89a5-568df3f50548.png" alt="Templo no Japão" width="100"></td>
+        </tr>
+        <tr>
+            <td>Canadá</td>
+            <td><img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/7f45fc1d-86b8-47cd-84e2-563244d3c4ac.png" alt="Montanhas canadenses" width="100"></td>
+        </tr>
+        <tr>
+            <td>Nova Zelândia</td>
+            <td><img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/18fcbcd1-796f-49ec-a56d-0ed0e45ca68c.png" alt="Paisagem da Nova Zelândia" width="100"></td>
+        </tr>
+    </table>
+    
+    <a href="https://github.com" target="_blank">Visite meu site favorito (GitHub)!</a>
+    
+    <button id="messageButton">Clique para ver uma mensagem!</button>
+    <p id="message" style="display:none;"></p>
+
+    <div class="github-links">
+        <a href="https://davidgeracaocal.github.io/Trabalho-de-entrega/" target="_blank">Link 1: Site no GitHub Pages</a><br>
+        <a href="https://github.com/DavidGeracaoCal/Trabalho-de-entrega" target="_blank">Link 2: Repositório no GitHub</a>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
